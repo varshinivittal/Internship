@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.email {
+  color:black;
+  font-size: 30px;
+} 
+
+.lock {
+  color: blue;
+  font-size: 30px;
+}
+
+table#t01, th  {
+ color: white;
+  background-color: black;
+}
+td {
+  background-color: white;
+  color: black;
+}
+
+.App-header {
+  background-color:black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-navbar {
+margin-top: 5px;
+}
+
+.location {
+  font-size: 30px;
+}
+
+.App-body {
+   color:black;
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+.App-link {
+  color: #61dafb;
+}
+
+#App-gender {
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
